@@ -23,16 +23,16 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-![Image](https://github.com/user-attachments/assets/fa508ae6-c605-4507-8eb7-17adddeffe62)
+<img width="793" height="874" alt="Image" src="https://github.com/user-attachments/assets/f53aa127-f6df-43b8-bf67-f62d567347fc" />
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/frontend-mentor-projects-social-links-WxRR6w7WRl)
-- [Live Site URL: ](https://social-links-profile-hazel-sigma.vercel.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/frontend-mentor-projects-social-links-WxRR6w7WRl)
+- [Live Site URL](https://frontend-mentor-projects-four-cards.vercel.app/)
 
 ## My process
 
@@ -41,13 +41,32 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 ### What I learned
+I have practices how to use css grid-column and grid-row, how to use grid-template-rows.
+I have learned that it is a better approach to import fonts by ```<link>``` tag in HTML instead of ```@import``` in CSS.
+
+Example: 
+
+✅️ Use this: ⬇️ 
+```
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+```
+instead of this: ⬇️
+```
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+```
 
 ### Continued development
 
 ### Useful resources
+Grid crash course:
+https://courses.wesbos.com/account/access/6865399bb4c43be5daf4dda3/view/249558283
 
+Solution of a senior dev on this challenge:
+https://www.frontendmentor.io/solutions/solution-for-four-card-feature-rFc5XiQGtj
 ## Author
 
 - Website - [Farzaneh Kazemi](https://verdant-bienenstitch-220a6d.netlify.app/)
