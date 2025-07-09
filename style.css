@@ -93,7 +93,7 @@ h1 {
   border-block-start: 4px solid var(--Primary-Cyan);
 }
 
-@media (min-width: 25em) {
+@media (min-width: 40em) {
   .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
